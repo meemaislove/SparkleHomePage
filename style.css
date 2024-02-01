@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    background-image: url("SparkleHomeBackground.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media (max-width: 991.98px) {
+    .logo-lg-visible {
+      display: none !important;
+    }
+  }
+  .nav-item {
+    margin: 0 12px;
+  }
+  .nav-item .nav-link {
+    font-size: 18px;
+  }
+  .form-control,
+  .form-control:focus,
+  .search input::placeholder {
+    color: white;
+    box-shadow: none;
+  }
